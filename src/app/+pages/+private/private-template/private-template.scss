@@ -1,0 +1,29 @@
+#banner{
+    background-color: rgb(219, 191, 224);
+    font-weight: bold;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 4px black;
+    text-align: center;
+    padding: 1.5em;
+}
+#menu{
+    display: flex;
+    padding: 0.5;
+    background-color:  rgb(174, 144, 178) ;
+    gap: 0.3em;
+    a{
+        text-decoration: none;
+        color: black;
+        background-color:  rgb(231, 216, 234);
+        border-radius: 0.2em;
+        padding: 0.3em;
+        min-width: 70px;
+        text-align: center;
+    }
+    a:hover{
+        background-color: rgba(255, 219, 224, 0.664);
+    }
+    .divider{
+        flex: 1 1 auto;
+    }
+}
